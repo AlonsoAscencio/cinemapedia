@@ -4,7 +4,7 @@ class AppTheme{
 
   ThemeData getTheme() => ThemeData(
     useMaterial3: true,
-    colorSchemeSeed: const Color.fromARGB(255, 114, 14, 207)
+    colorSchemeSeed: Color.fromARGB(255, 64, 61, 235)
   );
 
 }
