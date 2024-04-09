@@ -50,7 +50,7 @@ class _HomeViewState extends ConsumerState<_HomeView> {
       const SliverAppBar(
         floating: true,
         flexibleSpace: FlexibleSpaceBar(
-          title: Text('hola mundo'),
+          title: Text('CinemaPedia'),
         ),
       ),
       SliverList(
