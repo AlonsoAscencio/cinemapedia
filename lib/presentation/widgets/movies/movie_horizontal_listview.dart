@@ -117,7 +117,7 @@ class _SLide extends StatelessWidget {
           width: 150,
           child: Row(
             children: [
-              Icon(Icons.star_border_outlined, color: Colors.yellow.shade800),
+              Icon(Icons.star_half_rounded, color: Colors.yellow.shade800),
               const SizedBox(width: 3),
               Text('${movie.voteAverage}',
                   style: textStyle.bodyMedium

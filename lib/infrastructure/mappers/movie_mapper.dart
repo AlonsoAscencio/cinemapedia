@@ -16,8 +16,8 @@ class MovieMapper {
       popularity: moviedb.popularity,
       posterPath: moviedb.posterPath != ''
           ? 'https://image.tmdb.org/t/p/w500/${moviedb.posterPath}'
-          : 'no-poster',
-      releaseDate: moviedb.releaseDate,
+          : 'https://www.metmuseum.org/content/img/placeholders/NoPosterAvailable_placeholder_160x220.png',
+      releaseDate: moviedb.releaseDate != null ? moviedb.releaseDate! : DateTime.now(),
       title: moviedb.title,
       video: moviedb.video,
       voteAverage: moviedb.voteAverage,
@@ -36,7 +36,7 @@ class MovieMapper {
       popularity: moviedb.popularity,
       posterPath: moviedb.posterPath != ''
           ? 'https://image.tmdb.org/t/p/w500/${moviedb.posterPath}'
-          : 'no-poster',
+          : 'https://www.metmuseum.org/content/img/placeholders/NoPosterAvailable_placeholder_160x220.png',
       releaseDate: moviedb.releaseDate,
       title: moviedb.title,
       video: moviedb.video,
